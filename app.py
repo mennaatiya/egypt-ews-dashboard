@@ -249,14 +249,14 @@ with st.sidebar:
 
     page = st.radio("Navigation", [
         "📖 The Story",
-        "🏠 Current Status",
         "🧭 How It Works",
+        "🔬 PCA Results",
         "📈 MSI Time Series",
         "🔮 Forecast",
         "📊 Model Comparison",
         "🧪 Try It Yourself",
         "📋 Alert Log",
-        "🔬 PCA Results",
+        "🏠 Current Status",
     ])
 
     st.divider()
